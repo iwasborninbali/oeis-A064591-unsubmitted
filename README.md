@@ -1,7 +1,11 @@
 # OEIS A064591: reciprocal-divisor conjecture reduction (not yet submitted)
 
 <!-- oeis-status:begin -->
-**OEIS status: not submitted.** (replaced by the registry tool)
+**OEIS status: not submitted** (lab registry, 13 Nov 2026).
+
+- [A064591](https://oeis.org/A064591), Lagneau's conjecture equivalent to Ligh-Wall plus no odd perfect numbers: **candidate** (2026-11-13: repository built (core c5)). Certificate: partial.
+
+Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
 <!-- oeis-status:end -->
 
 ## Definition
