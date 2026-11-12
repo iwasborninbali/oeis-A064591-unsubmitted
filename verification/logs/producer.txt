@@ -1,0 +1,4 @@
+range: 100000
+nonunitary perfect: [24, 112, 1984, 32512]
+reciprocal equation: [24, 112, 1984, 32512]
+even-factor identity: PASS

@@ -1,0 +1,5 @@
+range: 5000
+nonunitary perfect: [24, 112, 1984]
+reciprocal equation: [24, 112, 1984]
+four times perfect: [24, 112, 1984]
+PASS
