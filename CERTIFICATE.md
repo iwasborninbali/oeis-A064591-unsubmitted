@@ -26,7 +26,10 @@ The independent finite check does not cover the producer's full range. Neither o
 
 ## Guide's independent check
 
-pending
+12 November 2026: the guide reviewed the answer this repository is built from and recorded the verdict in
+[athanor-oeis tasks/README.md](https://github.com/iwasborninbali/athanor-oeis/blob/main/tasks/README.md): OPEN, with an exact reduction that the guide verified.
+The write-up in this repository (`proof.md` and the programs, prepared by a Codex core on 13 November 2026) has not yet been
+re-read by the guide; until it is, this record stays a candidate.
 
 ## Verdict
 
