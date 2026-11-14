@@ -1,0 +1,11 @@
+limit: 5000000
+weighted-divisor-sieve seconds: 18.026
+factorization-and-products seconds: 3.272
+comparison-and-identity seconds: 2.663
+reciprocal solutions: [24, 112, 1984, 32512]
+nonunitary perfect: [24, 112, 1984, 32512]
+four times perfect: [24, 112, 1984, 32512]
+disagreements: 0
+even identity failures (first ten): []
+total seconds: 23.961
+PASS
