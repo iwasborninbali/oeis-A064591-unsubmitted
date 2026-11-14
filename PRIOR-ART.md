@@ -1,3 +1,9 @@
-# Prior art and credit
 
-On 2026-11-13, `https://oeis.org/search?q=id:A064591&fmt=text` returned one entry retaining Lagneau's 2015 conjecture. The reviewed answer cites Steve Ligh and Charles R. Wall, *Functions of Non-Unitary Divisors*, Fibonacci Quarterly 25(4) (1987), 333–338, for the conjectural classification, its known direction and checks below one million; Peter Hagis Jr., *Odd Nonunitary Perfect Numbers*, Fibonacci Quarterly 28(1) (1990), 11–15, for restrictions on odd nonunitary perfect numbers; and Joshua Zelinsky's 2024 MathOverflow answer to question 306760 for the special case with one odd prime factor. Euclid–Euler classifies even perfect numbers. These source descriptions follow the reviewed answer and were not independently re-read here. The search was not exhaustive and no priority claim is made for the reduction.
+
+## Search of 15 November 2026 (independent agent, `verification/agent-2026-11-15/REPORT.md`)
+
+Lagneau's conjecture is in A064591 (2015). Ligh and Wall, Functions of non-unitary divisors, Fibonacci Quarterly 25
+(1987), prove the forward inclusion and state the converse as Conjecture 1. Hagis, Odd nonunitary perfect numbers,
+Fibonacci Quarterly 28 (1990), restricts odd nonunitary perfect numbers. MathOverflow 306760 and Zelinsky's 2024 answer
+treat a special case of the Ligh-Wall conjecture. Related entries A048146, A064595, A064599. No earlier statement of
+the reduction was found; some history pages were not accessible, so the search is not exhaustive.
