@@ -59,3 +59,4 @@ Search date 2026-11-15. Priority is **not established**: a targeted search canno
 
 ## Verdict
 
+**PARTIAL as a research verification / priority certificate.** **Mathematical correctness is established** by an independently checked proof once the two explicit fixable omissions above are supplied; the universal assertions do not depend on unproved conjectures, and the exhaustive 5-million-range computation and eight explicit OEIS witnesses agree. **The existing `proof.md` has one literally false assertion (line 28) and one omitted elementary lemma (line 16); neither refutes the claim.** The claimed originality remains **not established** by a non-exhaustive bibliographic search. The Ligh–Wall conjecture and the possible existence of odd perfect numbers remain open, exactly as the claim says. No existing repository file was changed for this audit.
