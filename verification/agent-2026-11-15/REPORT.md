@@ -30,3 +30,20 @@ Line-by-line audit of `proof.md`:
 Two Python 3 programs in this directory were independently written from scratch, importing no repository code or tables:
 
 1. `independent_check.py`: exact weighted-divisor sieve computes the integer `B(n)=n*(2*s0(n)-s1(n))=sum_{d|n}(2 if d even else -1)*(n/d)` for **all `1 <= n <= 5,000,000`**; a separately implemented smallest-prime-factor sieve and prime-power multiplicative products compute `sigma(n)` and `sigma_star(n)`. It compares `B(n)=n`, `sigma(n)-sigma_star(n)=n`, and `4|n AND sigma(n/4)=n/2` for *every* `n`, and checks identity (2) independently for every even `n`. This is 1,000 times the existing 5,000-element independent check and 50 times the producer's 100,000-element range. Output: **all three lists `[24, 112, 1984, 32512]`, zero disagreements, zero identity failures, PASS**. Script's wall timer: **23.961 seconds** (outer `/usr/bin/time`: 32.63 seconds wall, 31.77 seconds user CPU, approximately 232 MB peak RSS). Log: `output.log`.
+2. `spot_check.py`: separately generates individual divisors by trial factorization and checks `sigma`, `sigma_star` via gcd, and the reciprocal condition using exact `fractions.Fraction`; also directly tests whether `n/4` is ordinary perfect. Checks all **eight currently displayed OEIS terms**, including `134201344`, `34359476224`, `549754765312`, and `9223372032559808512`, individually beyond the sieve bound. Output: **8/8 PASS**, 0.008 seconds reported, `spot-check.log`. This is a witness check only, not an exhaustive exclusion of other values above 5 million.
+
+Exact SHA-256 hashes of local scripts and captured output bytes:
+
+| File | SHA-256 |
+|---|---|
+| `independent_check.py` | `f6c22aa17ddde3c96cc93cf8653a2146db8c07cdd2bf37056e0caee135a7599d` |
+| `output.log` | `c32becb5721d7a101a5e6e73c842f0b28fe10d5172f36c767e28d1f407d598a2` |
+| `spot_check.py` | `7c062501340e300ea38f7ca83adc5f20fd2c476d71c68aadbe5ba88408aff906` |
+| `spot-check.log` | `eec253f3d09565dfb6f6c807798c3b76bb44ae999b241803149916ba928cc588` |
+
+Reproduce with `python3 verification/agent-2026-11-15/independent_check.py --limit 5000000` and `python3 verification/agent-2026-11-15/spot_check.py` at the repository root. Finite computation is supporting evidence; universal truth comes from the repaired argument.
+
+## Prior art
+
+Search date 2026-11-15. Priority is **not established**: a targeted search cannot prove that no earlier equivalent derivation exists. Sources and negative searches:
+
