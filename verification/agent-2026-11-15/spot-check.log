@@ -1,0 +1,9 @@
+n=24 factors=[(2, 3), (3, 1)] divisors=8 sigma=60 unitary=36 reciprocal=1 four_times_perfect=True result=PASS
+n=112 factors=[(2, 4), (7, 1)] divisors=10 sigma=248 unitary=136 reciprocal=1 four_times_perfect=True result=PASS
+n=1984 factors=[(2, 6), (31, 1)] divisors=14 sigma=4064 unitary=2080 reciprocal=1 four_times_perfect=True result=PASS
+n=32512 factors=[(2, 8), (127, 1)] divisors=18 sigma=65408 unitary=32896 reciprocal=1 four_times_perfect=True result=PASS
+n=134201344 factors=[(2, 14), (8191, 1)] divisors=30 sigma=268427264 unitary=134225920 reciprocal=1 four_times_perfect=True result=PASS
+n=34359476224 factors=[(2, 18), (131071, 1)] divisors=38 sigma=68719345664 unitary=34359869440 reciprocal=1 four_times_perfect=True result=PASS
+n=549754765312 factors=[(2, 20), (524287, 1)] divisors=42 sigma=1099511103488 unitary=549756338176 reciprocal=1 four_times_perfect=True result=PASS
+n=9223372032559808512 factors=[(2, 32), (2147483647, 1)] divisors=66 sigma=18446744071562067968 unitary=9223372039002259456 reciprocal=1 four_times_perfect=True result=PASS
+checked=8; total seconds=0.008; PASS
